@@ -1,0 +1,14 @@
+
+// star printed in odd values triangle shape
+
+    let nos = 5;
+ let strg = " ";
+
+for(var i = 0; i <= nos; i++) {
+
+  for(var j = 0 ; j < 2 * i - 1 ; j++) {
+      strg += "*"; 
+  }
+      strg += "\n"
+ }
+     console.log(strg);
